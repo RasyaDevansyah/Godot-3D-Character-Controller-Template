@@ -1,5 +1,7 @@
 # Godot 3D Character Controller Template
 
+<img width="1183" height="607" alt="image" src="https://github.com/user-attachments/assets/f27e9077-11c6-4aa7-917a-8c13f00ee35c" />
+
 This repository provides a robust, ready-to-use first-person 3D character controller for Godot Engine. It is designed to be easily integrated into your own Godot projects, with a focus on smooth movement, sprinting, crouching, sliding, jumping, and head-bobbing effects.
 
 ## Features
@@ -17,6 +19,9 @@ This repository provides a robust, ready-to-use first-person 3D character contro
 	- The red `Scenes/Player` folder contains everything you need for the character controller.
 	- Copy the entire `Player` folder into your own Godot project (keep the folder structure).
 
+<img width="265" height="156" alt="image" src="https://github.com/user-attachments/assets/a8cc33a4-7af6-4ed6-9dc7-17c1563e828b" />
+
+
 2. **Add the Player Scene to Your World**
 	- In your main scene, instance the `player.tscn` scene from `Scenes/Player`.
 	- Position it as needed in your world.
@@ -31,6 +36,10 @@ This repository provides a robust, ready-to-use first-person 3D character contro
 	  - `crouch` (default: C)
 	  - `ui_accept` (default: Space, for jump)
 	- If you copy the controller to a new project, make sure to add these actions in **Project > Project Settings > Input Map**.
+
+
+<img width="1194" height="428" alt="image" src="https://github.com/user-attachments/assets/8c05d251-8710-4d4f-80a0-7499e67c47e2" />
+
 
 4. **Test the Controller**
 	- Press play. Use WASD to move, Shift to sprint, C to crouch/slide, and Space to jump.
