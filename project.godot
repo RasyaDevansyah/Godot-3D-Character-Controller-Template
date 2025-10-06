@@ -14,6 +14,7 @@ config/name="Godot-3D-Character-Controller-Template"
 run/main_scene="uid://pco1oa2srkyd"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="uid://croikdvg6yh3q"
+config/tags=PackedStringArray("research")
 
 [file_customization]
 
